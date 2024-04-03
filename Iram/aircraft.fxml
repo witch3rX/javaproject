@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" text="Back" />
+      <Button layoutX="531.0" layoutY="361.0" mnemonicParsing="false" text="Log Out" />
+      <TableView layoutX="100.0" layoutY="38.0" prefHeight="200.0" prefWidth="439.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Aircraft" />
+          <TableColumn prefWidth="75.0" text="Pilot" />
+            <TableColumn prefWidth="75.0" text="Runway" />
+            <TableColumn prefWidth="107.0" text="Takeoff TIme" />
+            <TableColumn prefWidth="107.0" text="Landing TIme" />
+        </columns>
+      </TableView>
+      <Label layoutX="246.0" layoutY="10.0" text="Aircraft Information" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
